@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro de Movimiento de Fichas James Lind</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-principal: #1e1e2f;
+      --color-secundario: #4e91fc;
+      --color-acento: #21d4fd;
+      --fondo-claro: #f4f7fb;
+      --fondo-input: #ffffff;
+      --borde-claro: #dcdcdc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--fondo-claro);
+      color: var(--color-principal);
+      margin: 0;
+      padding: 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: var(--color-secundario);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      color: var(--color-principal);
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+
+    input, select, button {
+      padding: 0.75rem 1rem;
+      margin-top: 0.3rem;
+      width: 100%;
+      border: 1px solid var(--borde-claro);
+      border-radius: 12px;
+      font-size: 1rem;
+      background-color: var(--fondo-input);
+      transition: border 0.3s, box-shadow 0.3s;
+    }
+
+    input:focus, select:focus {
+      border-color: var(--color-secundario);
+      box-shadow: 0 0 0 3px rgba(78, 145, 252, 0.2);
+      outline: none;
+    }
+
+    button {
+      background: linear-gradient(135deg, var(--color-secundario), var(--color-acento));
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      margin-top: 1rem;
+    }
+
+    button:hover {
+      opacity: 0.95;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+      background-color: white;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 1rem;
+      border-bottom: 1px solid #f0f0f0;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f7f9fc;
+    }
+
+    .historial {
+      background: #e9f3ff;
+      padding: 1rem 1.5rem;
+      margin-top: 1.5rem;
+      border-left: 5px solid var(--color-secundario);
+      display: none;
+      border-radius: 8px;
+    }
+
+    .tomo-clickable {
+      color: var(--color-secundario);
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    #resultadoBusqueda {
+      font-weight: 600;
+      margin-top: 1rem;
+      color: #2d3748;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🧬 Registro de Movimiento de Fichas James Lind</h1>
+  <!-- resto del contenido igual -->
+</body>
+</html>
